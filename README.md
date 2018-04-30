@@ -1,1 +1,1 @@
-estudo
+Projeto para o estudo do Spring Boot e Hibernate.
