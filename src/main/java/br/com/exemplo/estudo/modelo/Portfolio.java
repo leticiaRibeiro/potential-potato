@@ -10,12 +10,25 @@ public class Portfolio {
 	@Id
 	@GeneratedValue
 	private Long id;
+
 	private String nomeJogo;
 	private String desenvolvedor;
 	private String distribuidor;
 	private int anoLancamento;
 	private String descricao;
 	
+	public Portfolio() {
+		
+	}
+	
+	public Portfolio(String nomeJogo, String desenvolvedor, String distribuidor, int anoLancamento, String descricao) {
+		super();
+		this.nomeJogo = nomeJogo;
+		this.desenvolvedor = desenvolvedor;
+		this.distribuidor = distribuidor;
+		this.anoLancamento = anoLancamento;
+		this.descricao = descricao;
+	}
 	
 	public Long getId() {
 		return id;
